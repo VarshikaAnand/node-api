@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/status', (req, res) => {
-  res.json({ status: 'APP is running' });
+  res.json({ status: 'APP is running and added changes' });
 });
 
 const PORT = process.env.PORT || 3000;
